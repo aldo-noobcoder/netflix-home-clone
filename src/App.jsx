@@ -7,7 +7,7 @@ import Main from "./components/Main/Main";
 function App() {
 	return (
 		<>
-			<BrowserRouter>
+			<BrowserRouter basename="/netflix-home-clone">
 				<Routes>
 					<Route element={<Home />}>
 						<Route index element={<Main />}></Route>
