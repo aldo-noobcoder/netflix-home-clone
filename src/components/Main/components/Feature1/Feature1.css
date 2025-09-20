@@ -1,0 +1,14 @@
+.feature__backgroud__video__container {
+	position: absolute;
+	width: 100%;
+	top: 20%;
+	left: 13%;
+	height: 100%;
+	max-width: 73%;
+	max-height: 54%;
+	z-index: -2;
+}
+
+.feature__backgroud__video {
+	width: 100%;
+}
